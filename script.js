@@ -149,7 +149,7 @@ const destruct = (ant) => {
   ants = updatedAnts;
 };
 
-canvas.addEventListener('mousedown', (event) => {
+canvas.addEventListener('click', (event) => {
   let x = event.x;
   let y = event.y;
 
